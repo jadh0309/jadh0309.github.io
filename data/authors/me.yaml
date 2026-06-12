@@ -13,10 +13,10 @@ status:
   icon: ''
 role: Ph.D. Student in Mathematical Sciences
 bio: |
-  Daehyun Jang is a Ph.D. student in Mathematical Sciences at Seoul National
-  University, advised by Prof. Jung Hee Cheon. His research focuses on
-  cryptography, particularly homomorphic encryption, lattice-based cryptography,
-  and privacy-preserving computation.
+  I am a Ph.D. student in Mathematical Sciences at Seoul National University,
+  advised by [Prof. Jung Hee Cheon](https://web.math.snu.ac.kr/~jhcheon/).
+  My research focuses on cryptography, particularly homomorphic encryption,
+  lattice-based cryptography, and privacy-preserving computation.
 
 affiliations:
   - name: Seoul National University
@@ -43,7 +43,7 @@ education:
     start: 2024-09-01
     end: ''
     summary: |
-      Advisor: Prof. Jung Hee Cheon.
+      Advisor: [Prof. Jung Hee Cheon](https://web.math.snu.ac.kr/~jhcheon/).
   - degree: B.S. in Mathematical Sciences
     institution: Seoul National University
     start: 2019-03-01
@@ -67,7 +67,7 @@ experience:
     end: 2024-08-31
     summary: |
       Studied the CKKS scheme and recent advances in homomorphic encryption.
-      Advised by Prof. Jung Hee Cheon.
+      Advised by [Prof. Jung Hee Cheon](https://web.math.snu.ac.kr/~jhcheon/).
   - role: Undergraduate Research Intern
     org: Seoul National University
     start: 2023-06-01

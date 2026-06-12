@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Ph.D. Student in Mathematical Sciences"
     # Site meta description for search engines and social sharing
-    description: "Daehyun Jang is a Ph.D. student in Mathematical Sciences at Seoul National University working on homomorphic encryption, CKKS, lattice-based cryptography, and privacy-preserving computation."
+    description: "Ph.D. student in Mathematical Sciences at Seoul National University working on homomorphic encryption, CKKS, lattice-based cryptography, and privacy-preserving computation."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)

@@ -18,7 +18,7 @@ sections:
             <article class="rounded-lg border border-emerald-200 bg-emerald-50 p-5 dark:border-emerald-700 dark:bg-gray-900">
               <p class="text-sm font-medium text-emerald-700 dark:text-emerald-300">Research Home</p>
               <h3 class="mt-2 text-xl font-semibold text-gray-900 dark:text-white">SNU Mathematical Sciences</h3>
-              <p class="mt-3 text-sm text-gray-700 dark:text-gray-300">Ph.D. student advised by Prof. Jung Hee Cheon.</p>
+              <p class="mt-3 text-sm text-gray-700 dark:text-gray-300">Ph.D. student advised by <a class="underline decoration-current/30 underline-offset-2 hover:decoration-current" href="https://web.math.snu.ac.kr/~jhcheon/">Prof. Jung Hee Cheon</a>.</p>
             </article>
             <article class="rounded-lg border border-sky-200 bg-sky-50 p-5 dark:border-sky-700 dark:bg-gray-900">
               <p class="text-sm font-medium text-sky-700 dark:text-sky-300">Teaching</p>
@@ -64,7 +64,7 @@ sections:
                   </div>
                   <time class="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600 dark:bg-gray-800 dark:text-gray-300">Oct. 2023 - Aug. 2024</time>
                 </div>
-                <p class="mt-4 text-gray-600 dark:text-gray-300">Studied the CKKS scheme and recent advances in homomorphic encryption, advised by Prof. Jung Hee Cheon.</p>
+                <p class="mt-4 text-gray-600 dark:text-gray-300">Studied the CKKS scheme and recent advances in homomorphic encryption, advised by <a class="underline decoration-current/30 underline-offset-2 hover:decoration-current" href="https://web.math.snu.ac.kr/~jhcheon/">Prof. Jung Hee Cheon</a>.</p>
                 <div class="mt-4 flex flex-wrap gap-2">
                   <span class="rounded-full bg-primary-50 px-3 py-1 text-xs font-medium text-primary-700 dark:bg-primary-900 dark:text-primary-200">CKKS</span>
                   <span class="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-200">Cryptography</span>
@@ -171,7 +171,7 @@ sections:
               </div>
               <time class="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600 dark:bg-gray-800 dark:text-gray-300">Sep. 2024 - Present</time>
             </div>
-            <p class="mt-4 text-gray-600 dark:text-gray-300">Advisor: Prof. Jung Hee Cheon.</p>
+            <p class="mt-4 text-gray-600 dark:text-gray-300">Advisor: <a class="underline decoration-current/30 underline-offset-2 hover:decoration-current" href="https://web.math.snu.ac.kr/~jhcheon/">Prof. Jung Hee Cheon</a>.</p>
           </article>
           <article class="rounded-lg border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-900">
             <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
