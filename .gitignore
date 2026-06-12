@@ -18,6 +18,9 @@ resources/
 # Hugo stats
 hugo_stats.json
 
+# CV build artifacts
+cv/build/
+
 # Auto-generated JS config
 **/assets/jsconfig.json
 

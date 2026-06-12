@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+title: 'Daehyun Jang'
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://whiper0309.github.io/'
 
 ############################
 ## LANGUAGE
@@ -50,6 +50,9 @@ imaging:
   quality: 90
   anchor: smart
   hint: picture
+caches:
+  images:
+    dir: :cacheDir/images
 timeout: 600000
 taxonomies:
   author: authors

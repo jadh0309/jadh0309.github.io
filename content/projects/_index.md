@@ -2,6 +2,11 @@
 title: 'Projects'
 date: 2024-05-19
 type: landing
+build:
+  render: never
+cascade:
+  build:
+    render: never
 
 # Page sections
 sections:

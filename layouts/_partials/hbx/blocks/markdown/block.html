@@ -1,0 +1,30 @@
+{{/* Hugo Blox: Markdown */}}
+{{/* Local override: support a wider container via design.container = "wide". */}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+{{ $design := $block.design }}
+{{ if not (reflect.IsMap $design) }}{{ $design = dict }}{{ end }}
+{{ $container_class := "max-w-prose" }}
+{{ $prose_class := "max-w-prose" }}
+{{ if eq (printf "%v" (index $design "container")) "wide" }}
+  {{ $container_class = "max-w-6xl" }}
+  {{ $prose_class = "max-w-none w-full" }}
+{{ end }}
+{{ $title := "" }}
+{{ with index $content "title" }}{{ $title = printf "%v" . | emojify | $page.RenderString }}{{ end }}
+{{ $text := "" }}
+{{ with index $content "text" }}{{ $text = printf "%v" . | emojify | $page.RenderString | safeHTML }}{{ end }}
+
+<div class="flex flex-col items-center {{ $container_class }} mx-auto gap-3 justify-center px-6">
+
+  {{ with $title }}
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  {{ with $text }}<div class="prose prose-slate lg:prose-xl dark:prose-invert {{ $prose_class }}">{{ . }}</div>{{ end }}
+</div>

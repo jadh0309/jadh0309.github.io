@@ -1,0 +1,189 @@
+\documentclass[11pt]{article}
+\usepackage{lmodern}
+
+\usepackage[T1]{fontenc}
+\usepackage{inter}
+\renewcommand*\familydefault{\sfdefault}
+
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    top=1.8cm,
+    bottom=1in,
+    left=2.5cm,
+    right=2.5cm
+}
+
+\setcounter{secnumdepth}{0}
+\pdfgentounicode=1
+
+\usepackage{enumitem}
+\setlist[itemize]{
+    noitemsep,
+    left=2em
+}
+\setlist[description]{itemsep=0pt}
+\setlist[enumerate]{align=left}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{icnclr}{rgb}{0.4, 0.65, 0.85}
+\definecolor{blue1}{rgb}{0.2, 0.2, 0.6}
+\definecolor{blue2}{rgb}{0.25, 0.35, 0.65}
+\usepackage{titlesec}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titleformat{\section}{\color{blue1}\large\fontseries{black}\selectfont\uppercase}{}{}{\ruleafter}[\global\RemVStrue]
+\titleformat{\subsection}{\color{blue2}\fontseries{bold}\selectfont}{}{}{\rvs}
+\titleformat{\subsubsection}{\color{icnclr}\fontseries{}\selectfont}{}{}{}
+
+\usepackage{xhfill}
+\newcommand\ruleafter[1]{#1~\xrfill[.5ex]{1pt}[gray]}
+
+\newif\ifRemVS
+\newcommand{\rvs}{
+    \ifRemVS
+        \vspace{-1.5ex}
+    \fi
+    \global\RemVSfalse
+}
+
+\usepackage{fontawesome5}
+
+\usepackage[bookmarks=false]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=Sepia,
+    pdftitle={Daehyun Jang CV},
+}
+
+\usepackage[page]{totalcount}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+
+\usepackage{datetime}
+\newdateformat{mydate}{\shortmonthname[\THEMONTH]. \THEDAY. \THEYEAR}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\begin{document}
+
+\begin{center}
+{\fontsize{28}{28}\selectfont Daehyun Jang} \\ \bigskip
+\vspace{-1cm}{\hfill \small CV Ver:\\\hfill\mydate\today} \\
+{\color{blue2}\faMapMarker} Seoul, Republic of Korea \quad
+{\color{blue2}\faEnvelope[regular]} \href{mailto:jadh0309@snu.ac.kr}{jadh0309@snu.ac.kr}
+\end{center}
+
+\section{About Me}
+I am a Ph.D. student in Mathematical Sciences at Seoul National University, advised by Prof. \href{https://web.math.snu.ac.kr/~jhcheon/xe2/}{Jung Hee Cheon}.
+My research focuses on Cryptography, particularly Homomorphic Encryption.
+
+\section{Education}
+
+        \subsection{Integrated M.S./Ph.D. Program in Mathematical Sciences \hfill \textcolor{black}{\normalfont Sep. 2024 -- Present}}
+                \subsubsection{Seoul National University, Seoul, Republic of Korea}
+
+        \subsection{B.S. in Mathematical Sciences \hfill \textcolor{black}{\normalfont Mar. 2019 -- Aug. 2024}}
+            \subsubsection{Seoul National University, Seoul, Republic of Korea}
+            \begin{itemize}
+                \item \textit{GPA}: 3.86/4.3 (Overall)
+                    \begin{itemize}
+                        \item \textit{Major}: Mathematical Sciences (3.99/4.3)
+                        \item \textit{Minor}: Philosophy (3.80/4.3)
+                    \end{itemize}
+                \item {\small \textit{Military Service} at Republic of Korea Army \hfill \normalfont Dec. 2020 -- Jun. 2022}
+            \end{itemize}
+
+\section{Publications}
+
+\subsection{Published}
+\begin{itemize}
+    \item Jung Hee Cheon, {\bf Daehyun Jang}, ``Cryptanalysis on Lightweight Verifiable Homomorphic Encryption,'' \textit{Asiacrypt 2025}.\\
+    {\footnotesize\textit{Author order is alphabetical by surname.}}
+\end{itemize}
+
+\subsection{Preprint(s)}
+    \begin{itemize}
+        \item Jung Hee Cheon, {\bf Daehyun Jang}, Jaehee Kang, Hanee Rhee, ``Private Embedding Lookup with Encrypted Compact Queries under Fully Homomorphic Encryption''\\
+        {\footnotesize\textit{Author order is alphabetical by surname.}}
+        \item Jung Hee Cheon, {\bf Daehyun Jang}, Jaehee Kang, Hanee Rhee, ``SWIFT: Shallow and SIMD-Aware CKKS Functional Bootstrapping for Low-Latency''\\
+        {\footnotesize\textit{Author order is alphabetical by surname.}}
+    \end{itemize}
+
+\section{Talks}
+\begin{itemize}
+    \item Korean Mathematical Society (KMS) 2024 Fall Meeting\\
+    ``Cryptanalysis on Lightweight Verifiable Homomorphic Encryption''
+    \item Asiacrypt 2025\\
+    ``Cryptanalysis on Lightweight Verifiable Homomorphic Encryption''
+    \item International Conference for the 80th Anniversary of the Korean Mathematical Society\\
+    {\small Jun. 23, 2026}\\
+    ``SWIFT: Shallow and SIMD-Aware CKKS Functional Bootstrapping\\
+    for Low-Latency''
+    \item KIAS\\
+    ``SWIFT: Shallow and SIMD-Aware CKKS Functional Bootstrapping\\
+    for Low-Latency''
+\end{itemize}
+
+\section{Posters}
+\begin{itemize}
+    \item FHE.org Conference 2026, ``Efficient Private Embedding Lookup via Independent Vector Evaluation''
+\end{itemize}
+
+\section{Research Internship}
+
+\subsection{Graduate Research Fellow}
+\subsubsection{Korea Institute for Advanced Study (KIAS), Seoul, Republic of Korea}
+\begin{itemize}
+    \item Homomorphic Encryption \hfill Jan. 2025 -- Present
+    \begin{itemize}
+        \item Theoretical study on the CKKS scheme
+        \item Advised by Prof. Jeong Han Kim
+    \end{itemize}
+\end{itemize}
+
+\subsection{Undergraduate Research Internship}
+\subsubsection{Seoul National University, Seoul, Republic of Korea}
+\begin{itemize}
+    \item Homomorphic Encryption \hfill Oct. 2023 -- Aug. 2024
+    \begin{itemize}
+        \item Study on the CKKS scheme and its recent advances
+        \item Advised by Prof. Jung Hee Cheon
+    \end{itemize}
+
+    \item Homogeneous Dynamics \hfill Jun. 2023 -- Aug. 2023
+    \begin{itemize}
+        \item Study on the Quantitative version of the Oppenheim conjecture
+        \item Advised by Prof. Seonhee Lim
+    \end{itemize}
+\end{itemize}
+
+\section{Teaching Experience}
+
+\subsection{Teaching Assistant}
+\begin{itemize}
+    \item Abstract Algebra I \hfill Spring 2026
+    \item Engineering Mathematics I \hfill Spring 2026
+    \item Mathematical Exercises II \hfill Fall 2024, Fall 2025
+    \item Advanced Mathematical Exercises I \hfill Spring 2025
+\end{itemize}
+
+\subsection{Undergraduate Tutor}
+\begin{itemize}
+    \item Mathematics I \hfill Spring 2020, Spring 2024
+    \item Mathematics II \hfill Fall 2020
+    \item Mathematics for Life Sciences I \hfill Spring 2023
+    \item Calculus II \hfill Fall 2023
+\end{itemize}
+
+\section{Honors \& Awards}
+\begin{itemize}
+\item 3rd Place, Korea Crypto Contest \hfill Oct. 2025
+\item Outstanding Teaching Assistant Award, Seoul National University \hfill Dec. 2024
+\item Outstanding Tutor Award, Seoul National University \hfill Dec. 2023
+\item Outstanding Student Award, Seoul National University \hfill Dec. 2020
+\end{itemize}
+
+\end{document}
