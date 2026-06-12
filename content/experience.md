@@ -237,8 +237,8 @@ sections:
             <div class="mt-3 h-2 rounded-full bg-gray-200 dark:bg-gray-800"><div class="h-2 rounded-full bg-primary-500" style="width: 70%"></div></div>
           </article>
           <article class="rounded-lg border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-900">
-            <div class="flex justify-between text-sm font-medium"><span>Japanese</span><span>30%</span></div>
-            <div class="mt-3 h-2 rounded-full bg-gray-200 dark:bg-gray-800"><div class="h-2 rounded-full bg-primary-500" style="width: 30%"></div></div>
+            <div class="flex justify-between text-sm font-medium"><span>Japanese</span><span>15%</span></div>
+            <div class="mt-3 h-2 rounded-full bg-gray-200 dark:bg-gray-800"><div class="h-2 rounded-full bg-primary-500" style="width: 15%"></div></div>
           </article>
         </div>
     design:
