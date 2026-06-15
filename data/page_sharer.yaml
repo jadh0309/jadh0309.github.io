@@ -1,0 +1,9 @@
+# Hugo Blox
+# Social sharing links
+
+links:
+  - id: email
+    url: 'mailto:?subject={title}&body={url}'
+    title: Email
+    icon: hero/at-symbol
+    enable: true
