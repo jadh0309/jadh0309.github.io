@@ -52,6 +52,13 @@ featured: true
 author_order_note: "Authors listed alphabetically."
 
 presentations:
+  - kind: Talk
+    name: 2025 KMS Annual Meeting
+    title: "HELO-LRM: Encrypted deep learning recommendation model with efficient lookup-table evaluation"
+    presenter: Jaehee Kang
+    date: Oct. 2025
+    location: Seoul, Republic of Korea
+    url: https://www.kms.or.kr/conference/meet/program/abst_view.html?num=10190&period=90&session_detail=743
   - kind: Poster
     name: FHE.org Conference 2026
     date: Mar. 2026

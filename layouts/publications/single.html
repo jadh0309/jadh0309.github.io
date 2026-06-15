@@ -289,8 +289,11 @@
                   {{ .name | markdownify }}
                   {{ if .url }}</a>{{ end }}
                 </div>
+                {{ with .title }}
+                  <div class="mt-0.5 text-sm text-gray-700 dark:text-gray-300">{{ . | markdownify }}</div>
+                {{ end }}
                 <div class="text-sm text-gray-500 dark:text-gray-400">
-                  {{ .kind }}{{ with .date }} · {{ . }}{{ end }}{{ with .location }} · {{ . }}{{ end }}
+                  {{ .kind }}{{ with .presenter }} by {{ . }}{{ end }}{{ with .date }} · {{ . }}{{ end }}{{ with .location }} · {{ . }}{{ end }}
                 </div>
                 {{ with .links }}
                   <div class="mt-1 flex flex-wrap gap-2">
