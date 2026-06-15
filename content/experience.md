@@ -227,7 +227,7 @@ sections:
     content:
       title: Languages
       text: |-
-        <div class="not-prose grid gap-4 md:grid-cols-3">
+        <div class="not-prose grid gap-4 md:grid-cols-2">
           <article class="rounded-lg border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-900">
             <div class="flex justify-between text-sm font-medium"><span>Korean</span><span>Native</span></div>
             <div class="mt-3 h-2 rounded-full bg-gray-200 dark:bg-gray-800"><div class="h-2 rounded-full bg-primary-500" style="width: 100%"></div></div>
@@ -235,10 +235,6 @@ sections:
           <article class="rounded-lg border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-900">
             <div class="flex justify-between text-sm font-medium"><span>English</span><span>70%</span></div>
             <div class="mt-3 h-2 rounded-full bg-gray-200 dark:bg-gray-800"><div class="h-2 rounded-full bg-primary-500" style="width: 70%"></div></div>
-          </article>
-          <article class="rounded-lg border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-900">
-            <div class="flex justify-between text-sm font-medium"><span>Japanese</span><span>15%</span></div>
-            <div class="mt-3 h-2 rounded-full bg-gray-200 dark:bg-gray-800"><div class="h-2 rounded-full bg-primary-500" style="width: 15%"></div></div>
           </article>
         </div>
     design:
