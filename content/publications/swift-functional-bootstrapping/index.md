@@ -14,6 +14,7 @@ publication_types: ["article"]
 
 peer_reviewed: false
 open_access: true
+share: false
 
 abstract: |
   Functional bootstrapping combines ciphertext refreshing with the evaluation

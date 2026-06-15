@@ -17,6 +17,7 @@ publication:
 
 peer_reviewed: true
 open_access: true
+share: false
 
 abstract: |
   Verifiable Homomorphic Encryption (VHE) integrates Homomorphic Encryption

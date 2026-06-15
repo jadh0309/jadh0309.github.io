@@ -14,6 +14,7 @@ publication_types: ["article"]
 
 peer_reviewed: false
 open_access: true
+share: false
 
 abstract: |
   Many NLP and recommendation models begin by mapping discrete client inputs to
