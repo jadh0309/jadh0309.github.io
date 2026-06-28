@@ -42,10 +42,10 @@ presentations:
     location: Seoul, Republic of Korea
     url: https://www.kms.or.kr/conference/meeting/index.html?period=91
   - kind: Talk
-    name: KIAS Seminar
-    date: To be announced
-    location: Seoul, Republic of Korea
-    url: https://www.kias.re.kr/
+    name: "PACOH Workshop: Homomorphic Encryption 2026"
+    date: Jun. 29, 2026
+    location: Sokcho, Republic of Korea
+    url: https://symposia.kias.re.kr/pacoh-he2026
 
 links:
   - type: pdf
