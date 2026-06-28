@@ -1,5 +1,31 @@
 # [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
 
+## Daehyun Jang Homepage Maintenance
+
+Live site:
+
+- `https://jadh0309.github.io`
+- `https://whiper0309.github.io`
+
+Current local Codex checkout:
+
+- `/Users/hyoni/Documents/Codex/HyoniWorkSpace/01_Projects/Code_Projects/jadh0309.github.io`
+
+Main files to edit:
+
+| Purpose | Repo path | Live output |
+| --- | --- | --- |
+| Homepage front page | `content/_index.md` | `/` |
+| Publications list | `content/publications/` | `/publications/` and homepage `Papers` section |
+| SWIFT publication page | `content/publications/swift-functional-bootstrapping/index.md` | `/publications/swift-functional-bootstrapping/` |
+| Experience page | `content/experience.md` | `/experience/` |
+| CV source | `cv/daehyun-jang-cv.tex` | `cv/daehyun-jang-cv.pdf` |
+| Downloadable CV | `static/uploads/resume.pdf` | `/uploads/resume.pdf` |
+| Site menu | `config/_default/menus.yaml` | Header navigation |
+| Profile metadata | `data/authors/me.yaml` | Author/profile blocks |
+
+After editing the CV source, rebuild `cv/daehyun-jang-cv.pdf` and copy the same PDF to `static/uploads/resume.pdf` so the header `CV` link stays current.
+
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=preview)
 
 <!-- TODO: Replace with a short demo video showing Hugo Chat generating an academic profile page -->
