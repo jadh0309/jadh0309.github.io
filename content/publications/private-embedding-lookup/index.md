@@ -7,12 +7,16 @@ authors:
   - Jaehee Kang
   - Hanee Rhee
 
-date: "2026-06-07T00:00:00Z"
+date: "2027-01-01T00:00:00Z"
 publishDate: "2026-06-02T00:00:00Z"
 
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
-peer_reviewed: false
+publication:
+  name: "Proceedings on Privacy Enhancing Technologies 2027, Issue 1"
+  short_name: "PoPETs 2027.1"
+
+peer_reviewed: true
 open_access: true
 share: false
 
@@ -84,4 +88,5 @@ projects: []
 slides: ""
 ---
 
-Preprint available on arXiv. Latest checked version: v3, June 7, 2026.
+Accepted for publication in Issue 1 of PoPETs 2027 on August 1, 2026.
+The camera-ready version is forthcoming; the current preprint is available on arXiv.
