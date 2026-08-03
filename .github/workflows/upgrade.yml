@@ -44,7 +44,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
         with:
-          package_json_path: ./package.json
+          package_json_file: ./package.json
           run_install: false
 
       - name: Setup Go
@@ -90,7 +90,8 @@ jobs:
             **Verification:**
             - [ ] Check the Deploy Preview to ensure everything looks correct.
             - [ ] Merge this PR to apply the updates.
-          branch: "chore/upgrade-hugoblox-${{ github.run_id }}"
+          # Reuse one branch so a pending upgrade PR is updated rather than duplicated weekly.
+          branch: "chore/upgrade-hugoblox"
           delete-branch: true
           base: main
           labels: |
