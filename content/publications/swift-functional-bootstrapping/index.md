@@ -16,12 +16,35 @@ open_access: true
 share: false
 
 abstract: |
-  Functional bootstrapping combines ciphertext refreshing with the evaluation
-  of a target function. In CKKS, this is commonly handled by representing the
-  target function as a trigonometric polynomial over the exponential basis.
-  SWIFT develops a shallow and SIMD-aware CKKS functional bootstrapping method
-  for low-latency encrypted computation, reorganizing the evaluation around
-  shallow homomorphic depth and packed-slot parallelism.
+  The CKKS homomorphic encryption scheme
+  can achieve high throughput for large batches, typically of
+  tens of thousands of inputs, whereas DM/CGGI schemes offer low latency for a single input.
+  In existing CKKS approaches, the multiplicative depth required for nonlinear function evaluation demands a large ciphertext modulus, which forces a large ring degree regardless of the input size.
+  Practical applications, such as encrypted MLP inference, may require
+  only a few hundred function evaluations at a time.
+  For these moderate batch sizes, existing CKKS-based methods
+  requiring large multiplicative depth incur high latency
+  without fully benefiting from their high throughput.
+
+  We present SWIFT, a CKKS functional-bootstrapping
+  method that reduces latency by using multiple slots to lower
+  multiplicative depth.
+  For input $x$, SWIFT packs its integer multiples $\ell x$ into unused slots. Exponential bootstrapping then generates the powers $\exp(2\pi\mathrm{i}\ell x)=\exp(2\pi\mathrm{i} x)^\ell=\alpha^\ell$ in parallel. Compared to previous approaches that compute these powers through homomorphic multiplications, SWIFT directly generates those powers and reduces the required multiplicative depth and ciphertext modulus, allowing a smaller ring degree and lower latency.
+
+  We also introduce a trigonometric approximation method for
+  singular functions such as $1/\sqrt{x}$, whose derivative
+  is unbounded near zero.
+  We observe that the previous Fourier extension method of Bian et al.
+  (EUROCRYPT'26) can produce extremely large coefficient norms
+  for these functions when focusing solely on reducing the polynomial degree.
+  Instead, we solve an optimization problem to find a trigonometric polynomial that minimizes the coefficient norm while satisfying the required approximation accuracy for the target function.
+  The resulting trigonometric polynomial can be evaluated
+  efficiently and with numerical stability using SWIFT.
+
+  Our implementation evaluates ReLU on $[-1,1]$ and $1/\sqrt{x}$ on $[0.0005,1]$ with 12-bit absolute and relative precision, respectively, at ring degree $\log N=15$. For batches of 512 inputs, SWIFT achieves speedups of $3.94\times$ and $2.86\times$ over the corresponding CKKS baselines for ReLU and $1/\sqrt{x}$, respectively.
+  Compared with latency estimates of DM/CGGI-based methods, SWIFT achieves
+  lower latency for 8-to-8 LUT and 12-to-12 LUT
+  at batch sizes as small as 32 inputs.
 
 summary: "A shallow and SIMD-aware CKKS functional bootstrapping method designed for low-latency encrypted computation."
 
