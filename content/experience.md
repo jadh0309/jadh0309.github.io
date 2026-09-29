@@ -23,7 +23,7 @@ sections:
             <article class="rounded-lg border border-sky-200 bg-sky-50 p-5 dark:border-sky-700 dark:bg-gray-900">
               <p class="text-sm font-medium text-sky-700 dark:text-sky-300">Teaching</p>
               <h3 class="mt-2 text-xl font-semibold text-gray-900 dark:text-white">TA and Tutor</h3>
-              <p class="mt-3 text-sm text-gray-700 dark:text-gray-300">Courses in algebra, calculus, engineering mathematics, and mathematical exercises.</p>
+              <p class="mt-3 text-sm text-gray-700 dark:text-gray-300">Courses in cryptography, algebra, calculus, engineering mathematics, and mathematical exercises.</p>
             </article>
           </div>
         </div>
@@ -105,6 +105,10 @@ sections:
               <span class="rounded-full bg-sky-50 px-3 py-1 text-sm font-medium text-sky-700 dark:bg-sky-900 dark:text-sky-200">TA</span>
             </div>
             <div class="mt-5 grid gap-3">
+              <article class="rounded-lg border border-gray-100 p-4 dark:border-gray-800">
+                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Fall 2026</p>
+                <p class="mt-2 text-gray-900 dark:text-white">Cryptography</p>
+              </article>
               <article class="rounded-lg border border-gray-100 p-4 dark:border-gray-800">
                 <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Spring 2026</p>
                 <p class="mt-2 text-gray-900 dark:text-white">Abstract Algebra I</p>
