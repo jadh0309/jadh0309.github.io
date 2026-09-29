@@ -15,7 +15,9 @@
 }
 
 \setcounter{secnumdepth}{0}
-\pdfgentounicode=1
+\ifdefined\pdfgentounicode
+    \pdfgentounicode=1
+\fi
 
 \usepackage{enumitem}
 \setlist[itemize]{
