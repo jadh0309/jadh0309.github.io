@@ -5,7 +5,6 @@ authors:
   - Jung Hee Cheon
   - me
   - Jaehee Kang
-  - Hanee Rhee
 
 date: "2026-06-09T00:00:00Z"
 publishDate: "2026-06-09T00:00:00Z"
