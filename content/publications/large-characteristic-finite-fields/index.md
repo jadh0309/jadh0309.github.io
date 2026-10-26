@@ -75,4 +75,3 @@ slides: ""
 ---
 
 Accepted for presentation at [ICISC 2026](https://www.icisc.org/sites/icisc2026) on October 26, 2026.
-The [preprint](https://eprint.iacr.org/2026/1958) was first posted on September 10, 2026 and revised on September 29, 2026.
