@@ -7,11 +7,15 @@ authors:
 
 date: "2026-09-10T00:00:00Z"
 publishDate: "2026-09-10T00:00:00Z"
-lastmod: "2026-09-14T00:00:00Z"
+lastmod: "2026-10-26T00:00:00Z"
 
-publication_types: ["article"]
+publication_types: ["paper-conference"]
 
-peer_reviewed: false
+publication:
+  name: "The 29th Annual International Conference on Information Security and Cryptology (ICISC 2026, accepted)"
+  short_name: "ICISC 2026 (accepted)"
+
+peer_reviewed: true
 open_access: true
 share: false
 
@@ -37,9 +41,9 @@ abstract: |
 
   For fields with a 256-bit prime characteristic (secp256k1) and extension
   degrees $1$, $2$, and $4$, we provide numerical simulations of error
-  amplification and compute the maximum multiplication counts attainable in
-  each case. We further present a bootstrapping procedure that reduces both
-  the size of the plaintext and its noise.
+  amplification and compute the maximum multiplication counts satisfying
+  the decoding condition under stated error bounds. We further present a
+  bootstrapping procedure that reduces both the size of the plaintext and its noise.
 
 summary: "Bi-spectral encoding for arithmetic over large-characteristic finite fields in CKKS, with bounds on error amplification and a bootstrapping procedure."
 
@@ -57,6 +61,9 @@ links:
   - type: custom
     label: IACR ePrint
     url: https://eprint.iacr.org/2026/1958
+  - type: custom
+    label: ICISC 2026
+    url: https://www.icisc.org/sites/icisc2026
 
 image:
   caption: ''
@@ -67,4 +74,5 @@ projects: []
 slides: ""
 ---
 
-Working draft. First posted on September 10, 2026; revised on September 14, 2026.
+Accepted for presentation at [ICISC 2026](https://www.icisc.org/sites/icisc2026) on October 26, 2026.
+The [preprint](https://eprint.iacr.org/2026/1958) was first posted on September 10, 2026 and revised on September 29, 2026.
